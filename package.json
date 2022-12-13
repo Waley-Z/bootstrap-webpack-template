@@ -1,0 +1,33 @@
+{
+    "dependencies": {
+        "bootstrap": "^5.2.2",
+        "html-webpack-plugin": "^5.5.0"
+    },
+    "name": "example.com",
+    "version": "1.0.0",
+    "main": "src/js/main.js",
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^5.0.0",
+        "autoprefixer": "^10.4.12",
+        "css-loader": "^6.7.1",
+        "mini-css-extract-plugin": "^2.6.1",
+        "postcss": "^8.4.18",
+        "postcss-loader": "^7.0.1",
+        "sass": "^1.55.0",
+        "sass-loader": "^13.1.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.11.1",
+        "webpack-merge": "^5.8.0"
+    },
+    "scripts": {
+        "start": "webpack serve --open --config config/webpack.dev.js",
+        "build": "webpack --config config/webpack.prod.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Waley",
+    "license": "ISC",
+    "description": ""
+}
