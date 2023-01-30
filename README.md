@@ -8,8 +8,8 @@ This project requires NodeJS (version 16 or later) and NPM. [Node](http://nodejs
 
 ```sh
 $ npm -v && node -v
-8.19.2
-v16.17.1
+8.19.3
+v18.13.0
 ```
 
 ## Getting Started
